@@ -8,7 +8,12 @@ int main (){
 
     b= 20;
 
-    printf("\n The sum is %d",a+b);
+    printf("\n The sum is %d",sum(a,b));
 
     return 0;
+}
+
+int sum(int a,int b){
+
+    return a+b;
 }
